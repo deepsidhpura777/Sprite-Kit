@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		148079231965C92A0017C7D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148079221965C92A0017C7D5 /* Foundation.framework */; };
+		148079251965C92A0017C7D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148079241965C92A0017C7D5 /* CoreGraphics.framework */; };
+		148079271965C92A0017C7D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148079261965C92A0017C7D5 /* UIKit.framework */; };
+		148079291965C92A0017C7D5 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148079281965C92A0017C7D5 /* SpriteKit.framework */; };
+		1480792F1965C92A0017C7D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1480792D1965C92A0017C7D5 /* InfoPlist.strings */; };
+		148079311965C92A0017C7D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 148079301965C92A0017C7D5 /* main.m */; };
+		148079351965C92A0017C7D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 148079341965C92A0017C7D5 /* AppDelegate.m */; };
+		148079381965C92A0017C7D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148079361965C92A0017C7D5 /* Main.storyboard */; };
+		1480793B1965C92A0017C7D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1480793A1965C92A0017C7D5 /* ViewController.m */; };
+		1480793E1965C92A0017C7D5 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1480793D1965C92A0017C7D5 /* MyScene.m */; };
+		148079401965C92A0017C7D5 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 1480793F1965C92A0017C7D5 /* Spaceship.png */; };
+		148079421965C92A0017C7D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148079411965C92A0017C7D5 /* Images.xcassets */; };
+		148079491965C92A0017C7D5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148079481965C92A0017C7D5 /* XCTest.framework */; };
+		1480794A1965C92A0017C7D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148079221965C92A0017C7D5 /* Foundation.framework */; };
+		1480794B1965C92A0017C7D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148079261965C92A0017C7D5 /* UIKit.framework */; };
+		148079531965C92A0017C7D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 148079511965C92A0017C7D5 /* InfoPlist.strings */; };
+		148079551965C92A0017C7D5 /* MyFlappyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 148079541965C92A0017C7D5 /* MyFlappyTests.m */; };
+		148079641965C9560017C7D5 /* Bird1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1480795E1965C9560017C7D5 /* Bird1.png */; };
+		148079651965C9560017C7D5 /* Bird2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1480795F1965C9560017C7D5 /* Bird2.png */; };
+		148079661965C9560017C7D5 /* Ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 148079601965C9560017C7D5 /* Ground.png */; };
+		148079671965C9560017C7D5 /* Pipe1.png in Resources */ = {isa = PBXBuildFile; fileRef = 148079611965C9560017C7D5 /* Pipe1.png */; };
+		148079681965C9560017C7D5 /* Pipe2.png in Resources */ = {isa = PBXBuildFile; fileRef = 148079621965C9560017C7D5 /* Pipe2.png */; };
+		148079691965C9560017C7D5 /* Skyline.png in Resources */ = {isa = PBXBuildFile; fileRef = 148079631965C9560017C7D5 /* Skyline.png */; };
+		1480796C196A92CF0017C7D5 /* StartScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1480796B196A92CF0017C7D5 /* StartScene.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1480794C1965C92A0017C7D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 148079171965C92A0017C7D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1480791E1965C92A0017C7D5;
+			remoteInfo = MyFlappy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1480791F1965C92A0017C7D5 /* MyFlappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFlappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		148079221965C92A0017C7D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		148079241965C92A0017C7D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		148079261965C92A0017C7D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		148079281965C92A0017C7D5 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		1480792C1965C92A0017C7D5 /* MyFlappy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFlappy-Info.plist"; sourceTree = "<group>"; };
+		1480792E1965C92A0017C7D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		148079301965C92A0017C7D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		148079321965C92A0017C7D5 /* MyFlappy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyFlappy-Prefix.pch"; sourceTree = "<group>"; };
+		148079331965C92A0017C7D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		148079341965C92A0017C7D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		148079371965C92A0017C7D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		148079391965C92A0017C7D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1480793A1965C92A0017C7D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1480793C1965C92A0017C7D5 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		1480793D1965C92A0017C7D5 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		1480793F1965C92A0017C7D5 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		148079411965C92A0017C7D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		148079471965C92A0017C7D5 /* MyFlappyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFlappyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		148079481965C92A0017C7D5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		148079501965C92A0017C7D5 /* MyFlappyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFlappyTests-Info.plist"; sourceTree = "<group>"; };
+		148079521965C92A0017C7D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		148079541965C92A0017C7D5 /* MyFlappyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFlappyTests.m; sourceTree = "<group>"; };
+		1480795E1965C9560017C7D5 /* Bird1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bird1.png; sourceTree = "<group>"; };
+		1480795F1965C9560017C7D5 /* Bird2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bird2.png; sourceTree = "<group>"; };
+		148079601965C9560017C7D5 /* Ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ground.png; sourceTree = "<group>"; };
+		148079611965C9560017C7D5 /* Pipe1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pipe1.png; sourceTree = "<group>"; };
+		148079621965C9560017C7D5 /* Pipe2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pipe2.png; sourceTree = "<group>"; };
+		148079631965C9560017C7D5 /* Skyline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Skyline.png; sourceTree = "<group>"; };
+		1480796A196A92CF0017C7D5 /* StartScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartScene.h; sourceTree = "<group>"; };
+		1480796B196A92CF0017C7D5 /* StartScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartScene.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1480791C1965C92A0017C7D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148079251965C92A0017C7D5 /* CoreGraphics.framework in Frameworks */,
+				148079271965C92A0017C7D5 /* UIKit.framework in Frameworks */,
+				148079291965C92A0017C7D5 /* SpriteKit.framework in Frameworks */,
+				148079231965C92A0017C7D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148079441965C92A0017C7D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148079491965C92A0017C7D5 /* XCTest.framework in Frameworks */,
+				1480794B1965C92A0017C7D5 /* UIKit.framework in Frameworks */,
+				1480794A1965C92A0017C7D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		148079161965C92A0017C7D5 = {
+			isa = PBXGroup;
+			children = (
+				1480792A1965C92A0017C7D5 /* MyFlappy */,
+				1480794E1965C92A0017C7D5 /* MyFlappyTests */,
+				148079211965C92A0017C7D5 /* Frameworks */,
+				148079201965C92A0017C7D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		148079201965C92A0017C7D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1480791F1965C92A0017C7D5 /* MyFlappy.app */,
+				148079471965C92A0017C7D5 /* MyFlappyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		148079211965C92A0017C7D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				148079221965C92A0017C7D5 /* Foundation.framework */,
+				148079241965C92A0017C7D5 /* CoreGraphics.framework */,
+				148079261965C92A0017C7D5 /* UIKit.framework */,
+				148079281965C92A0017C7D5 /* SpriteKit.framework */,
+				148079481965C92A0017C7D5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1480792A1965C92A0017C7D5 /* MyFlappy */ = {
+			isa = PBXGroup;
+			children = (
+				148079331965C92A0017C7D5 /* AppDelegate.h */,
+				148079341965C92A0017C7D5 /* AppDelegate.m */,
+				148079361965C92A0017C7D5 /* Main.storyboard */,
+				148079391965C92A0017C7D5 /* ViewController.h */,
+				1480793A1965C92A0017C7D5 /* ViewController.m */,
+				1480793C1965C92A0017C7D5 /* MyScene.h */,
+				1480793D1965C92A0017C7D5 /* MyScene.m */,
+				1480793F1965C92A0017C7D5 /* Spaceship.png */,
+				1480795E1965C9560017C7D5 /* Bird1.png */,
+				1480795F1965C9560017C7D5 /* Bird2.png */,
+				148079601965C9560017C7D5 /* Ground.png */,
+				148079611965C9560017C7D5 /* Pipe1.png */,
+				148079621965C9560017C7D5 /* Pipe2.png */,
+				148079631965C9560017C7D5 /* Skyline.png */,
+				148079411965C92A0017C7D5 /* Images.xcassets */,
+				1480792B1965C92A0017C7D5 /* Supporting Files */,
+				1480796A196A92CF0017C7D5 /* StartScene.h */,
+				1480796B196A92CF0017C7D5 /* StartScene.m */,
+			);
+			path = MyFlappy;
+			sourceTree = "<group>";
+		};
+		1480792B1965C92A0017C7D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1480792C1965C92A0017C7D5 /* MyFlappy-Info.plist */,
+				1480792D1965C92A0017C7D5 /* InfoPlist.strings */,
+				148079301965C92A0017C7D5 /* main.m */,
+				148079321965C92A0017C7D5 /* MyFlappy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1480794E1965C92A0017C7D5 /* MyFlappyTests */ = {
+			isa = PBXGroup;
+			children = (
+				148079541965C92A0017C7D5 /* MyFlappyTests.m */,
+				1480794F1965C92A0017C7D5 /* Supporting Files */,
+			);
+			path = MyFlappyTests;
+			sourceTree = "<group>";
+		};
+		1480794F1965C92A0017C7D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				148079501965C92A0017C7D5 /* MyFlappyTests-Info.plist */,
+				148079511965C92A0017C7D5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1480791E1965C92A0017C7D5 /* MyFlappy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 148079581965C92A0017C7D5 /* Build configuration list for PBXNativeTarget "MyFlappy" */;
+			buildPhases = (
+				1480791B1965C92A0017C7D5 /* Sources */,
+				1480791C1965C92A0017C7D5 /* Frameworks */,
+				1480791D1965C92A0017C7D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFlappy;
+			productName = MyFlappy;
+			productReference = 1480791F1965C92A0017C7D5 /* MyFlappy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		148079461965C92A0017C7D5 /* MyFlappyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1480795B1965C92A0017C7D5 /* Build configuration list for PBXNativeTarget "MyFlappyTests" */;
+			buildPhases = (
+				148079431965C92A0017C7D5 /* Sources */,
+				148079441965C92A0017C7D5 /* Frameworks */,
+				148079451965C92A0017C7D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1480794D1965C92A0017C7D5 /* PBXTargetDependency */,
+			);
+			name = MyFlappyTests;
+			productName = MyFlappyTests;
+			productReference = 148079471965C92A0017C7D5 /* MyFlappyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		148079171965C92A0017C7D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Deep Sidhpura";
+				TargetAttributes = {
+					148079461965C92A0017C7D5 = {
+						TestTargetID = 1480791E1965C92A0017C7D5;
+					};
+				};
+			};
+			buildConfigurationList = 1480791A1965C92A0017C7D5 /* Build configuration list for PBXProject "MyFlappy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 148079161965C92A0017C7D5;
+			productRefGroup = 148079201965C92A0017C7D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1480791E1965C92A0017C7D5 /* MyFlappy */,
+				148079461965C92A0017C7D5 /* MyFlappyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1480791D1965C92A0017C7D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1480792F1965C92A0017C7D5 /* InfoPlist.strings in Resources */,
+				148079651965C9560017C7D5 /* Bird2.png in Resources */,
+				148079421965C92A0017C7D5 /* Images.xcassets in Resources */,
+				148079681965C9560017C7D5 /* Pipe2.png in Resources */,
+				148079671965C9560017C7D5 /* Pipe1.png in Resources */,
+				148079401965C92A0017C7D5 /* Spaceship.png in Resources */,
+				148079641965C9560017C7D5 /* Bird1.png in Resources */,
+				148079381965C92A0017C7D5 /* Main.storyboard in Resources */,
+				148079661965C9560017C7D5 /* Ground.png in Resources */,
+				148079691965C9560017C7D5 /* Skyline.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148079451965C92A0017C7D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148079531965C92A0017C7D5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1480791B1965C92A0017C7D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1480793E1965C92A0017C7D5 /* MyScene.m in Sources */,
+				1480793B1965C92A0017C7D5 /* ViewController.m in Sources */,
+				148079351965C92A0017C7D5 /* AppDelegate.m in Sources */,
+				148079311965C92A0017C7D5 /* main.m in Sources */,
+				1480796C196A92CF0017C7D5 /* StartScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148079431965C92A0017C7D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148079551965C92A0017C7D5 /* MyFlappyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1480794D1965C92A0017C7D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1480791E1965C92A0017C7D5 /* MyFlappy */;
+			targetProxy = 1480794C1965C92A0017C7D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1480792D1965C92A0017C7D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1480792E1965C92A0017C7D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		148079361965C92A0017C7D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				148079371965C92A0017C7D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		148079511965C92A0017C7D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				148079521965C92A0017C7D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		148079561965C92A0017C7D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		148079571965C92A0017C7D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		148079591965C92A0017C7D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyFlappy/MyFlappy-Prefix.pch";
+				INFOPLIST_FILE = "MyFlappy/MyFlappy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1480795A1965C92A0017C7D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyFlappy/MyFlappy-Prefix.pch";
+				INFOPLIST_FILE = "MyFlappy/MyFlappy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1480795C1965C92A0017C7D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyFlappy.app/MyFlappy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyFlappy/MyFlappy-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MyFlappyTests/MyFlappyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1480795D1965C92A0017C7D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyFlappy.app/MyFlappy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyFlappy/MyFlappy-Prefix.pch";
+				INFOPLIST_FILE = "MyFlappyTests/MyFlappyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1480791A1965C92A0017C7D5 /* Build configuration list for PBXProject "MyFlappy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148079561965C92A0017C7D5 /* Debug */,
+				148079571965C92A0017C7D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		148079581965C92A0017C7D5 /* Build configuration list for PBXNativeTarget "MyFlappy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148079591965C92A0017C7D5 /* Debug */,
+				1480795A1965C92A0017C7D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1480795B1965C92A0017C7D5 /* Build configuration list for PBXNativeTarget "MyFlappyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1480795C1965C92A0017C7D5 /* Debug */,
+				1480795D1965C92A0017C7D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 148079171965C92A0017C7D5 /* Project object */;
+}
